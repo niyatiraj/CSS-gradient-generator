@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient(to right top, rgba(2,0,36,1) 0%, rgba(9,110,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  color: rgb(3, 0, 12);
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px  ;
+  margin: 0;
+}
+
+#button1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  width: 8rem;
+  background-color: rgb(104, 215, 237);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px 1.5px ;
+}
+
+#button2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  width: 8rem;
+  background-color: rgb(11, 59, 131);
+  border: none;
+  color: rgb(93, 209, 227);
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px 1.5px ;
+}
+
+#para{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.copyCode{
+  margin: 0 auto;
+  padding: 4px;
+  display: block;
+  color: #fff;
+  line-height: 3;
+  letter-spacing: 0.2px;
+  border-left: 3px solid #fff;
+  background-color: rgba(189,189,189,0.1);
+  padding: 15px,8px,15px,17px;
+  border-radius: 5px;
+}
